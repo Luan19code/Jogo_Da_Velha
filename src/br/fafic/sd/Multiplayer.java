@@ -62,19 +62,19 @@ public class Multiplayer extends UnicastRemoteObject implements IMultiplayer {
         }
     }
 
-//    public static void Ler() {
-//        int variavel_retornavel = 0;
-//        try {
-//            FileReader leitura = new FileReader("codigoCliente.txt");
-//
-//            BufferedReader br = new BufferedReader(leitura);
-//
-////            enviar_Codigo(Integer.parseInt(br.readLine()));
-////            enviar_Simbolo(br.readLine());
-//            System.out.println("MINHA V: " + variavel_retornavel);
-//
-//        } catch (IOException ex) {
-//            Logger.getLogger(Multiplayer.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//    }
+    public static void Ler() {
+        int variavel_retornavel = 0;
+        try {
+            FileReader leitura = new FileReader("AtividadeTHR.txt");
+
+            BufferedReader br = new BufferedReader(leitura);
+
+//            enviar_Codigo(Integer.parseInt(br.readLine()));
+//            enviar_Simbolo(br.readLine());
+            System.out.println("MINHA V: " + variavel_retornavel);
+
+        } catch (IOException ex) {
+            Logger.getLogger(Multiplayer.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
